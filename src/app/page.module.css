@@ -35,16 +35,54 @@
 
 /**** Section 1 ****/
 .section1{
-    height: 100vh;
+    /* height: 100vh; */
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+}
+.section1 .content_part{
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
-.secton1 .diamond{
+.content_part .diamond{
     width: 66px;
     height: 66px;
     border-radius: 50%;
     background-color: #8B2351;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.content_part h2{
+    font-family: var(--univers-font);
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+}
+.content_part p{
+    font-family: var(--univers-font);
+    width: 830px;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    margin: 0 auto;
+}
+.content_part button{
+    font-family: var(--univers-font);
+    width: 154px;
+    height: 59px;
+    padding: 12px 20px 12px 20px;
+    border: 1px solid #8B2351;
+    border-radius: 2px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+.content_part button:hover{
+    border: 2px solid #8B2351;
 }
 
 
