@@ -35,7 +35,8 @@
 
 /**** Section 1 ****/
 .section1{
-    height: 100vh;
+    /* height: 100vh; */
+    padding-top: 5rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
