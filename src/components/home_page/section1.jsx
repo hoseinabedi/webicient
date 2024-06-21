@@ -12,7 +12,10 @@ const Section1 = () => {
                 <p>Maecenas dapibus turpis id purus mollis aliquam. Sed facilisis nec ipsum nec rutrum.Maecenas dapibus turpis id purus mollis aliquam. Sed facilisis nec ipsum nec rutrum.Maecenas dapibus turpis id purus mollis aliquam. Sed facilisis nec ipsum nec</p>
                 <button>About us</button>
             </div>
-            <div></div>
+            <div className={styles.video}>
+                <Image src="/video.png" width={1042} height={545} alt='video' />
+                <Image src="/play.png" width={126} height={126} alt='play' style={{position: "absolute"}} />
+            </div>
         </div>
     )
 }
