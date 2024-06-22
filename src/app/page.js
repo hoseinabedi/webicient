@@ -1,3 +1,4 @@
+import Section2 from "@/components/home_page/section2";
 import Section1 from "../components/home_page/section1";
 import styles from "./page.module.css";
 
@@ -11,6 +12,7 @@ const Home = () => {
                 </div>
             </div>
             <Section1 />
+            <Section2 />
             <div className={styles.content}>Hossein Abedi</div>
         </div>
     );

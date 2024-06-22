@@ -95,8 +95,95 @@
     justify-content: center;
     align-items: center;
 }
-
-
+/**** Section 2 ****/
+.section2{
+    /* background-image: url('../../public/image1.png'); */
+    display: flex;
+    align-items: flex-end;
+    width: 1440px;
+    height: 733px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.section2 .bg{
+    background-image: url('../../public/image1.png');
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.section2 .bg::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #072D3A;
+    opacity: 50%;
+    z-index: -1;
+}
+.section2 .partContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+.section2 .partContainer .part{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+    height: 100%;
+    padding: 2rem 4rem 2rem 2rem;
+    overflow: hidden;
+    justify-content: flex-end;
+}
+.section2 .partContainer .part:nth-child(n-1){
+    border-right: 1px solid #ffffff54;
+}
+.section2 .partContainer .part:hover{
+    color: #fff;
+    cursor: pointer;
+    border-left: 2px solid #0000003e;
+    border-right: 2px solid #0000003e;
+}
+.section2 .partContainer .part:hover > .content p{
+    height: 150px;
+}
+.section2 .partContainer .part:hover ~ .part:nth-child(n+1){
+    border-right: 0;
+}
+.section2 .part span{
+    width: 64px;
+    height: 64px;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+.section2 .part .content h3{
+    width: 226px;
+    color: #fff;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 700;
+}
+.section2 .part .content p{
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    height: 0;
+    overflow: hidden;
+    transition: all 500ms;
+    
+}
 
 
 
