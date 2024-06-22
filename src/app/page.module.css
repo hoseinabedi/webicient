@@ -142,7 +142,7 @@
     justify-content: flex-end;
 }
 .section2 .partContainer .part:nth-child(n-1){
-    border-right: 1px solid #ffffff54;
+    border-left: 1px solid #ffffff54;
 }
 .section2 .partContainer .part:hover{
     color: #fff;
@@ -153,8 +153,8 @@
 .section2 .partContainer .part:hover > .content p{
     height: 150px;
 }
-.section2 .partContainer .part:hover ~ .part:nth-child(n+1){
-    border-right: 0;
+.section2 .partContainer .part:hover + .part{
+    border-left: 0;
 }
 .section2 .part span{
     width: 64px;
