@@ -1,12 +1,6 @@
-import { GoogleFont } from 'next/font/google'
+import DINNextW1GFont from '@/app/dinnextw1g'
 import localFont from 'next/font/local'
 import "./globals.css";
-
-const DINNextW1G = GoogleFont({
-    family: 'DIN Next W1G',
-    subsets: ['latin'],
-    display: 'swap',
-})
 
 const universFont = localFont({
     src: [
@@ -58,7 +52,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
-            <body className={`${universFont.variable} ${obliqueFont.variable} ${DINNextW1G.className}`}>{children}</body>
+            <body className={`${universFont.variable} ${obliqueFont.variable} ${DINNextW1GFont.variable}`}>{children}</body>
         </html>
     );
 }
