@@ -290,6 +290,7 @@
     padding: 2rem 3rem; 
 }
 .section4 .contactForm .smallTxt{
+    font-family: var(--dinNext-font);
     font-size: 14px;
     line-height: 17px;
     font-weight: 400;

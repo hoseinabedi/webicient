@@ -13,8 +13,16 @@ const Section1 = () => {
                 <button>About us</button>
             </div>
             <div className={styles.video}>
-                <Image src="/video.png" width={1042} height={545} alt='video' />
-                <Image src="/play.png" width={126} height={126} alt='play' style={{position: "absolute"}} />
+                <video controls poster="/video.png">
+                    <source src="https://www.youtube.com/watch?v=LXb3EKWsInQ" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+                {/* <figure >
+                    <iframe width="853" height="480" src="https://www.youtube.com/watch?v=LXb3EKWsInQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <figcaption>A mordern lighting design</figcaption>
+                </figure> */}
+                {/* <Image src="/video.png" width={1042} height={545} alt='video' />
+                <Image src="/play.png" width={126} height={126} alt='play' style={{position: "absolute"}} /> */}
             </div>
         </div>
     )
