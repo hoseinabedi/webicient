@@ -5,13 +5,13 @@ const Section4 = () => {
         <div className={styles.section4}>
             <div className={styles.footerBg}></div>
             <div className={styles.contactForm}>
-                <p>Any questions?</p>
-                <p>Let’s talk today!</p>
+                <p className={styles.smallTxt}>Any questions?</p>
+                <p className={styles.title}>Let’s talk today!</p>
                 <form>
                     <input type="text" placeholder="Name"/>
                     <input type="text" placeholder="Email"/>
                     <textarea placeholder="Message"></textarea>
-                    <input type="submit" value="Submit"/>
+                    <button type="submit" value="Submit">Submit</button>
                 </form>
             </div>
         </div>

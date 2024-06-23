@@ -17,7 +17,7 @@ const Home = () => {
             <Section2 />
             <Section3 />
             <Section4 />
-            <div className={styles.content}>Hossein Abedi</div>
+            {/* <div className={styles.content}>Hossein Abedi</div> */}
         </div>
     );
 }

@@ -287,6 +287,46 @@
     background-color: #172938;
     width: 435px;
     height: 540px;
+    padding: 2rem 3rem; 
+}
+.section4 .contactForm .smallTxt{
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+    color: #fff;
+}
+.section4 .contactForm .title{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 29px;
+    color: #fff;
+}
+.section4 .contactForm form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.section4 .contactForm form input{
+    padding: 1rem 2rem;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+.section4 .contactForm form textarea{
+    padding: 1rem 2rem;
+    background-color: #000;
+    color: #fff;
+}
+.section4 .contactForm form button{
+    padding: 1rem 2rem;
+    color: #262626;
+    background-color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
 }
 
 
