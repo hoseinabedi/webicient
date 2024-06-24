@@ -10,7 +10,7 @@ const Section4 = () => {
                 <form>
                     <input type="text" placeholder="Name"/>
                     <input type="text" placeholder="Email"/>
-                    <textarea placeholder="Message"></textarea>
+                    <textarea placeholder="Message" rows={5}></textarea>
                     <button type="submit" value="Submit">Submit</button>
                 </form>
             </div>

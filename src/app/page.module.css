@@ -374,6 +374,8 @@
     line-height: 17px;
     padding: 1rem 2rem;
     background-color: #000;
+    border: none;
+    border-radius: 4px;
     color: #fff;
 }
 .section4 .contactForm form textarea::placeholder{
@@ -398,14 +400,15 @@
     background-color: transparent;
     border: 2px solid #fff;
 }
-
-
-.content {
-    font-family: var(--univers-font);
-    font-weight: 600;
-}
-
-.content2 {
-    font-family: var(--oblique-font);
-    font-weight: 600;
+@media only screen and (max-width: 480px) {
+    .section4{
+        height: auto;
+    }
+    .section4 .footerBg{
+        display: none;
+    }
+    .section4 .contactForm{
+        transform: translateX(0);
+        padding: 3rem 1rem;
+    }
 }
