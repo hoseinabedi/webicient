@@ -309,18 +309,35 @@
     gap: 2rem;
 }
 .section4 .contactForm form input{
+    font-family: var(--dinNext-font);
+    font-size: 14px;
+    line-height: 17px;
     padding: 1rem 2rem;
     background-color: #000;
     color: #fff;
     border: none;
     border-radius: 4px;
 }
+.section4 .contactForm form input::placeholder{
+    color: #EFF4F8;
+    font-family: var(--dinNext-font);
+    font-size: 14px;
+}
 .section4 .contactForm form textarea{
+    font-family: var(--dinNext-font);
+    font-size: 14px;
+    line-height: 17px;
     padding: 1rem 2rem;
     background-color: #000;
     color: #fff;
 }
+.section4 .contactForm form textarea::placeholder{
+    color: #EFF4F8;
+    font-family: var(--dinNext-font);
+    font-size: 14px;
+}
 .section4 .contactForm form button{
+    cursor: pointer;
     padding: 1rem 2rem;
     color: #262626;
     background-color: #fff;
@@ -329,6 +346,12 @@
     font-size: 14px;
     line-height: 17px;
     font-weight: 700;
+    border: 2px solid transparent;
+}
+.section4 .contactForm form button:hover{
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
 }
 
 
