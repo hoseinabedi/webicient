@@ -14,9 +14,12 @@ const Section1 = () => {
             </div>
             <div className={styles.video}>
                 <video controls poster="/video.png">
-                    <source src="https://www.youtube.com/watch?v=LXb3EKWsInQ" type="video/mp4" />
+                    <source src="https://www.youtube.com/watch?v=LXb3EKWsInQ"  />
                     Your browser does not support the video tag.
                 </video>
+                {/* <iframe style={{minHeight: "180px", width: "100%"}}
+                    src="https://www.youtube.com/watch?v=LXb3EKWsInQ">
+                </iframe> */}
                 {/* <figure >
                     <iframe width="853" height="480" src="https://www.youtube.com/watch?v=LXb3EKWsInQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <figcaption>A mordern lighting design</figcaption>

@@ -112,7 +112,14 @@
     align-items: center;
 }
 @media only screen and (max-width: 480px) {
+    .section1{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
     .content_part p{
+        width: 100%;
+    }
+    .section1 .video video{
         width: 100%;
     }
 }
@@ -267,6 +274,23 @@
     background-color: #ffffff;
     border: 2px solid #8B2351;
     color: #8B2351;
+}
+@media only screen and (max-width: 480px) {
+    .section3{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        width: 100%;
+    }
+    .section3 .container{
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .section3 .imageSide img{
+        width: 100%;
+    }
+    .section3 .contentSide a{
+        width: 100%;
+    }
 }
 
 /**** Section 4 ****/
