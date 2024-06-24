@@ -32,6 +32,22 @@
     margin: 0 auto;
     width: 975px;
 }
+@media only screen and (max-width: 480px) {
+    .Hero{
+        padding: 0 1rem;
+    }
+    .contents{
+        width: calc(100% - 32px);
+    }
+    .contents h1{
+        font-size: 40px;
+        line-height: 48px;
+        font-weight: 400;
+    }
+    .contents p{
+        width: 100%;
+    }
+}
 
 /**** Section 1 ****/
 .section1{
@@ -94,6 +110,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+@media only screen and (max-width: 480px) {
+    .content_part p{
+        width: 100%;
+    }
 }
 
 /**** Section 2 ****/
