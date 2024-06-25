@@ -1,10 +1,27 @@
 .Hero{
     height: 100vh;
     width: 100%;
+    position: relative;
+}
+.Hero .HeroBg{
+    display: block;
     background-image: url('../../public/hero.png');
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+.Hero .HeroBg::after{
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(180deg, rgba(17,42,61,0) 0%, rgba(22,41,55,1) 80%);
+    z-index: -1;
 }
 .contents{
     position: absolute;
@@ -33,11 +50,12 @@
     width: 975px;
 }
 @media only screen and (max-width: 480px) {
-    .Hero{
-        padding: 0 1rem;
+    .Hero .HeroBg{
+        background-position: -620px 0;
     }
     .contents{
-        width: calc(100% - 32px);
+        width: 100%;
+        padding: 0 1rem;
     }
     .contents h1{
         font-size: 40px;
@@ -51,7 +69,6 @@
 
 /**** Section 1 ****/
 .section1{
-    /* height: 100vh; */
     padding-top: 5rem;
     display: flex;
     flex-direction: column;
@@ -126,7 +143,6 @@
 
 /**** Section 2 ****/
 .section2{
-    /* background-image: url('../../public/image1.png'); */
     display: flex;
     align-items: flex-end;
     width: 1440px;
@@ -369,8 +385,6 @@
     width: 50%;
     height: 100%;
     background: linear-gradient(90deg, rgba(17,42,61,0) 0%, rgba(22,41,55,1) 80%);
-    /* background: linear-gradient(90deg, rgba(17,42,61,0) 0%, rgba(22,41,55,1) 100%); */
-    /* background: linear-gradient(90deg, rgba(17,42,61,0.3) 0%, rgba(22,41,55,1) 100%); */
     z-index: -1;
 }
 .section4 .contactForm{

@@ -13,7 +13,8 @@ const Section1 = () => {
                 <button>About us</button>
             </div>
             <div className={styles.video}>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/LXb3EKWsInQ?si=5qPR8FxPIg9wZ7jt" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+            <iframe width="1042" height="545" src="https://www.youtube.com/embed/LXb3EKWsInQ?si=5qPR8FxPIg9wZ7jt" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/LXb3EKWsInQ?si=5qPR8FxPIg9wZ7jt" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe> */}
                 {/* <video controls poster="/video.png">
                     <source src="https://www.youtube.com/embed/tgbNymZ7vqY"  />
                     Your browser does not support the video tag.
