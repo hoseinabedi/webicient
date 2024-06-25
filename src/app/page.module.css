@@ -51,7 +51,7 @@
 }
 @media only screen and (max-width: 480px) {
     .Hero .HeroBg{
-        background-position: -620px 0;
+        background-position: 50% 0;
     }
     .contents{
         width: 100%;
