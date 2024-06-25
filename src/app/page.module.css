@@ -176,13 +176,21 @@
 .section2 .partContainer .part:nth-child(n-1){
     border-left: 1px solid #ffffff54;
 }
+.section2 .partContainer .part .content{
+    font-family: var(--univers-font);
+}
 .section2 .partContainer .part:hover{
     color: #fff;
     cursor: pointer;
     border-left: 2px solid #0000003e;
     border-right: 2px solid #0000003e;
 }
+.section2 .partContainer .part:hover > span{
+    color: #000000;
+    background-color: #fff;
+}
 .section2 .partContainer .part:hover > .content p{
+    margin-top: 1rem;
     height: 150px;
 }
 .section2 .partContainer .part:hover + .part{
@@ -248,6 +256,9 @@
     }
     .section2 .partContainer .part .content{
         margin: 2rem 4rem 2rem 2rem;
+    }
+    .section2 .partContainer .part .content p{
+        margin-top: 1rem;
     }
 }
 
