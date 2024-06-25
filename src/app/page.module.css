@@ -212,6 +212,41 @@
     overflow: hidden;
     transition: all 500ms;
 }
+@media only screen and (max-width: 480px) {
+    .section2{
+        width: 100%;
+        height: auto;
+    }
+    .section2 .bg{
+        display: none;
+    }
+    .section2 .partContainer{
+        flex-direction: column;
+    }
+    .section2 .part .content p{
+        height: auto;
+    }
+    .section2 .partContainer .part{
+        /* background-image: url('../../public/image1.png'); */
+        background-repeat: no-repeat;
+        background-position: -605px 0;
+        background-size: 1443px 845px;
+        height: 100vh;
+        position: relative;
+        padding: 0;
+    }
+    .section2 .partContainer .part .bg{
+        display: initial;
+        background-position: -605px 0;
+        background-size: 1443px 845px;
+    }
+    .section2 .partContainer .part span{
+        margin: 0 2rem;
+    }
+    .section2 .partContainer .part .content{
+        margin: 2rem 4rem 2rem 2rem;
+    }
+}
 
 /**** Section 3 ****/
 .section3{

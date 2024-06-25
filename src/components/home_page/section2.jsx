@@ -7,6 +7,7 @@ const Section2 = () => {
                 <div className={styles.bg}></div>
                 <div className={styles.partContainer}>
                     <div className={styles.part}>
+                        <div className={styles.bg}></div>
                         <span>+</span>
                         <div className={styles.content}>
                             <h3>Financial statements</h3>
@@ -14,6 +15,7 @@ const Section2 = () => {
                         </div>
                     </div>
                     <div className={styles.part}>
+                    <div className={styles.bg}></div>
                         <span>+</span>
                         <div className={styles.content}>
                             <h3>Press releases</h3>
@@ -21,6 +23,7 @@ const Section2 = () => {
                         </div>
                     </div>
                     <div className={styles.part}>
+                        <div className={styles.bg}></div>
                         <span>+</span>
                         <div className={styles.content}>
                             <h3>Webcast links</h3>
@@ -28,6 +31,7 @@ const Section2 = () => {
                         </div>
                     </div>
                     <div className={styles.part}>
+                        <div className={styles.bg}></div>
                         <span>+</span>
                         <div className={styles.content}>
                             <h3>Corporate governance</h3>
