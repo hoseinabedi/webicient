@@ -170,6 +170,9 @@
     overflow: hidden;
     justify-content: flex-end;
 }
+.section2 .partContainer .part .bg{
+    display: none;
+}
 .section2 .partContainer .part:nth-child(n-1){
     border-left: 1px solid #ffffff54;
 }
