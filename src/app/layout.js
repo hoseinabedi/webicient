@@ -52,7 +52,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
-            <body className={`${universFont.variable} ${obliqueFont.variable} ${DINNextW1GFont.variable}`}>{children}</body>
+            <body className={`${universFont.variable} ${obliqueFont.variable} ${DINNextW1GFont.variable}`}>
+                {children}
+            </body>
         </html>
     );
 }

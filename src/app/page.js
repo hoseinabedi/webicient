@@ -1,5 +1,5 @@
 import styles from "./page.module.css";
-import Section1 from "../components/home_page/section1";
+import Section1 from "@/components/home_page/section1";
 import Section2 from "@/components/home_page/section2";
 import Section3 from "@/components/home_page/section3";
 import Section4 from "@/components/home_page/section4";
